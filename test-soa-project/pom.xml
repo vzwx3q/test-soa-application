@@ -101,4 +101,10 @@
             </plugin>
         </plugins>
     </build>
+<distributionManagement>
+    <repository>
+      <id>snapshots</id>
+      <url>http://52.36.168.221/repository/snapshots/</url>
+    </repository>
+  </distributionManagement>
 </project>
