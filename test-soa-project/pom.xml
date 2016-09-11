@@ -108,7 +108,7 @@
     </snapshotRepository>
     <repository>
       <id>internal</id>
-      <url>http://52.36.168.221/repository/internal/</url>
+      <url>http://52.36.168.221/repository/dev/</url>
     </repository>
 </distributionManagement>
 
