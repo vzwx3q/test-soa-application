@@ -42,7 +42,7 @@
         <composite.revision>${project.version}</composite.revision>
         <composite.partition>default</composite.partition>
         <composite.partition>default</composite.partition>
-        <serverUrl>http://172.31.19.23:7101</serverUrl>
+        <serverUrl>http://52.41.54.128:7101</serverUrl>
         <user>weblogic</user>
         <password>welcome1</password>
         <overwrite>true</overwrite>
