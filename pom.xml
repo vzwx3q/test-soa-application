@@ -9,4 +9,14 @@
         <!-- Add project modules -->
     	<module>test-soa-project</module>
     </modules>
+     <distributionManagement>
+    <repository>
+      <id>dev</id>
+      <url>http://52.36.168.221/repository/dev/</url>
+    </repository>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <url>http://52.36.168.221/repository/snapshots</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
