@@ -59,6 +59,16 @@
         <input>test-soa-project</input>
     </properties>
 
+    <distributionManagement>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <url>http://52.36.168.221/repository/snapshots/</url>
+    </snapshotRepository>
+    <repository>
+      <id>internal</id>
+      <url>http://52.36.168.221/repository/dev/</url>
+    </repository>
+</distributionManagement>
     <!--
            These refer to the properties defined above.  You should probably not need to make 
            any changes beflow this point - these just point to the properties above.
@@ -101,15 +111,4 @@
             </plugin>
         </plugins>
     </build>
-    <distributionManagement>
-    <snapshotRepository>
-      <id>snapshots</id>
-      <url>http://52.36.168.221/repository/snapshots/</url>
-    </snapshotRepository>
-    <repository>
-      <id>internal</id>
-      <url>http://52.36.168.221/repository/dev/</url>
-    </repository>
-</distributionManagement>
-
 </project>
