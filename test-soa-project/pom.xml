@@ -105,8 +105,8 @@
 <distributionManagement>
     <repository>
       <uniqueVersion>false</uniqueVersion>
-      <id>internal</id>
-      <url>http://52.36.168.221/repository/internal</url>
+      <id>dev</id>
+      <url>http://52.36.168.221/repository/dev</url>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
