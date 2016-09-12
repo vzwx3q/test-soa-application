@@ -102,4 +102,28 @@
             </plugin>
         </plugins>
     </build>
+<distributionManagement>
+    <repository>
+      <id>dev</id>
+      <url>http://52.36.168.221/repository/dev/</url>
+    </repository>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <url>http://52.36.168.221/repository/snapshots</url>
+    </snapshotRepository>
+</distributionManagement>
+<dependencies>
+		<dependency>
+			<groupId>org.apache.maven</groupId>
+			<artifactId>maven-plugin-api</artifactId>
+			<version>3.1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.10</version>
+			<type>jar</type>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
 </project>
