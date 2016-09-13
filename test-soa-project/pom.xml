@@ -103,19 +103,17 @@
         </plugins>
     </build>
 <distributionManagement>
-    <repository>
-      <uniqueVersion>false</uniqueVersion>
-      <id>dev</id>
-      <url>http://52.36.168.221/repository/dev</url>
-    </repository>
-    <snapshotRepository>
-      <uniqueVersion>true</uniqueVersion>
-      <id>snapshots</id>
-      <url>http://52.36.168.221/repository/snapshots</url>
-    </snapshotRepository>
-</distributionManagement>
-
-<dependencies>
+		<repository>
+			<id>releases</id>
+			<url>http://172.31.19.23:8081/nexus/content/repositories/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<url>http://172.31.19.23:8081/nexus/content/repositories/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+ 
+	<dependencies>
 		<dependency>
 			<groupId>org.apache.maven</groupId>
 			<artifactId>maven-plugin-api</artifactId>
